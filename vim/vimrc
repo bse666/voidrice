@@ -14,31 +14,31 @@
 let mapleader = ','
 
 " Useful macros I use the most
-nmap \A :set formatoptions+=a<CR>:echo "autowrap enabled"<CR>
-nmap \F :NERDTreeFind<CR>
-nmap \M :set noexpandtab tabstop=8 softtabstop=4 shiftwidth=4<CR>
-nmap \T :set expandtab tabstop=8 shiftwidth=8 softtabstop=4<CR>
-nmap \W mt:Goyo<CR>'tzz
-nmap \a :set formatoptions-=a<CR>:echo "autowrap disabled"<CR>
-nmap \b :set nocin tw=80<CR>:set formatoptions+=a<CR>
-nmap \c :call TmuxPaneClear()<CR>
-nmap \d :ALEToggleBuffer<CR>
-nmap \e :NERDTreeToggle<CR>
-nmap \f :ALEFix<CR>
-nmap \g :GitGutterToggle<CR>
-nmap \i vip:sort<CR>
-nmap \l :setlocal number!<CR>:setlocal number?<CR>
-nmap \m :set expandtab tabstop=2 shiftwidth=2 softtabstop=2<CR>
-nmap \o :set paste!<CR>:set paste?<CR>
-nmap \p :ProseMode<CR>
-nmap \q :nohlsearch<CR>
-nmap \r :call TmuxPaneRepeat()<CR>
-nmap \s :setlocal invspell<CR>
-nmap \t :set expandtab tabstop=4 shiftwidth=4 softtabstop=4<CR>
-nmap \u :setlocal list!<CR>:setlocal list?<CR>
-nmap \w :setlocal wrap!<CR>:setlocal wrap?<CR>
-nmap \x :cclose<CR>
-nmap \z :w<CR>:!open %<CR><CR>
+nmap <leader>A :set formatoptions+=a<CR>:echo "autowrap enabled"<CR>
+nmap <leader>F :NERDTreeFind<CR>
+nmap <leader>M :set noexpandtab tabstop=8 softtabstop=4 shiftwidth=4<CR>
+nmap <leader>T :set expandtab tabstop=8 shiftwidth=8 softtabstop=4<CR>
+nmap <leader>W mt:Goyo<CR>'tzz
+nmap <leader>a :set formatoptions-=a<CR>:echo "autowrap disabled"<CR>
+nmap <leader>b :set nocin tw=80<CR>:set formatoptions+=a<CR>
+nmap <leader>c :call TmuxPaneClear()<CR>
+nmap <leader>d :ALEToggleBuffer<CR>
+nmap <leader>e :NERDTreeToggle<CR>
+nmap <leader>f :ALEFix<CR>
+nmap <leader>g :GitGutterToggle<CR>
+nmap <leader>i vip:sort<CR>
+nmap <leader>l :setlocal number!<CR>:setlocal number?<CR>
+nmap <leader>m :set expandtab tabstop=2 shiftwidth=2 softtabstop=2<CR>
+nmap <leader>o :set paste!<CR>:set paste?<CR>
+nmap <leader>p :ProseMode<CR>
+nmap <leader>q :nohlsearch<CR>
+nmap <leader>r :call TmuxPaneRepeat()<CR>
+nmap <leader>s :setlocal invspell<CR>
+nmap <leader>t :set expandtab tabstop=4 shiftwidth=4 softtabstop=4<CR>
+nmap <leader>u :setlocal list!<CR>:setlocal list?<CR>
+nmap <leader>w :setlocal wrap!<CR>:setlocal wrap?<CR>
+nmap <leader>x :cclose<CR>
+nmap <leader>z :w<CR>:!open %<CR><CR>
 
 " Turn off linewise keys. Normally, the `j' and `k' keys move the cursor down one entire line. with
 " line wrapping on, this can cause the cursor to actually skip a few lines on the screen because
