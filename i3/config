@@ -153,6 +153,9 @@ bindsym $mod+m          exec i3-sensible-terminal -name "mymusicplayer" -title "
 bindsym $mod+Shift+m    exec i3-sensible-terminal -e ~/.config/i3/mpd_mute.sh
 bindsym $mod+i [urgent=latest] focus
 
+## Mouse with keypad activate with Shift+Numlock
+bindsym $mod+Shift+n exec setxkbmap -option keypad:pointers
+
 # find default soundcard-id 
 # pacmd list-sinks | grep \* | grep -o '.$'
 bindsym $snd_id "pacmd list-sinks | grep \* | grep -o '.$'"
